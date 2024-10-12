@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s; /* Smooth transition */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.5s; /* Smooth transition */
+}
+
+/* Default styles for buttons */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF; /* Original button color */
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px; /* Added margin for better spacing */
+    transition: background-color 0.5s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.share-button {
+    display: none; /* Initially hidden */
+    margin-left: 10px; /* Space between joke and share button */
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; /* Green color for share button */
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.share-button:hover {
+    background-color: #218838; /* Darker shade on hover */
+}
